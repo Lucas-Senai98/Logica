@@ -1,17 +1,15 @@
 <?php
 
-Tempertura = >= 30;
+$nome = "Alberto Roberto";
 
+$idade = 20;
 
-if(Temperatura >= 30);{
+if($idade >= 18){
 
-    echo $nome .  '  ensolarado.' ;
-
+    echo $nome . ' você é maior de idade.';
 }
-
-
-
-else{
-
-    echo $nome . ' O dia está nublado ';    
+ 
+else 
+{
+    echo $nome . ' você é menor de Idade.';
 }
